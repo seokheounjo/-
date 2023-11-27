@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>What Shop Mall</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>What Shop Mall</h1>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">MY ACCOUNT</a></li>
+                <li><a href="23.11.24.html">LAST</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside id="category-list">
+            <h3>카테고리</h3>
+            <ul>
+                <li onclick="openTab('Electronics')">전자제품</li>
+                <li onclick="openTab('Clothes')">의류</li>
+                <li onclick="openTab('Food')" >음식</li>
+                <li onclick="openTab('Books')">도서</li>
+                <li onclick="openTab('MV')">영화</li>
+                <li onclick="openTab('CAT')">고양이 용품</li>
+                <li onclick="openTab('Keybord')">키보드</li>
+                <!-- 추가 카테고리 -->
+            </ul>
+        </aside>
+
+        <section id="main-content">
+            <!-- 각 카테고리의 내용이 여기에 표시됩니다. -->
+            <div id="Electronics" class="category-content" style="display:none">
+                <div id="PC">
+                    <div id="PC2">
+                        <img src="노트북2.png" width="40%">
+                        <p> - CPU 모델 번호: 코어i9-13900HK<br><br>
+                            - GPU 모델명: 지포스 RTX 4090<br><br>
+                            - 화면크기: 40.64cm<br><br>
+                            - 그래픽카드 형태: 외장그래픽카드 장착<br><br>
+                            - 해상도 (해상도 등급): QHD+<br><br>
+                            ₩5,190,000</p>
+                        <input type="submit" value="쇼핑카트에 추가하기">
+                    </div>
+                    <div id="PC1">
+                        <img src="노트북1.png" width="40%">
+                        
+                        <p>- 최대 Windows 11 Pro
+
+                            - 맞춤형 RGB 조명을 갖춘 고유한 단조 카본 디자인<br><br>
+                            - 새로운 하이브리드 발열 솔루션을 사용한 수랭식 제품<br>  <br>    
+                            - 16” 3.2K 미니 LED PureSight 디스플레이로 동급 최고 수준의 시각화 구현<br><br>
+                            - 13세대 Intel® Core™ i9-13980HX<br><br>
+                            - 최대 NVIDIA® GeForce RTX™ 4090 노트북 GPU 16GB GDDR6<br><br>
+                            - 레노버 AI Engine+ 기반으로 프레임 속도 향상<br><br>
+                            ₩4,754,241</p>
+                        <input type="submit" value="쇼핑카트에 추가하기">
+                    </div>
+                </div>
+            </div>
+            <div id="Clothes" class="category-content" style="display:none">
+                <h2> Arc'teryx아크테릭스</h2>
+                <img src = "의류.png" width=100%>
+                <p>완벽한 방수성능과 방한성능을 지닌 프리미엄 구스다운 GORE-TEX</p>
+                <input type="submit" value="쇼핑카트에 추가하기">
+            </div>
+            <div id="Food" class="category-content" style="display:none">
+                <h2>음식</h2> 
+                <b>- 뚱가네 음식점을 기준으로 망포역 인근 맞집</b>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1335.3653908939166!2d127.05675671899657!3d37.24647256262169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b436bb9fbbfb1%3A0xfd570be3a861629b!2z65qx6rCA64Sk!5e0!3m2!1sko!2skr!4v1700602822075!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+            <div id="Books" class="category-content" style="display:none">
+                <h2>11월의 베스트 셀러</h2>
+                <img src="책.png" width="400" max-width="600">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BYcJXtvZrh0?si=GgaKzDJodai7OWmb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>책소개
+                    “말해줘요, 오늘의 나를 얼마큼 사랑하는지.<br><br>
+                    그럼 우리에게 오늘은 세상에서 가장 특별한 날이 되는 거예요!”<br><br>
+                    
+                    푸바오의 작은할부지 송바오가 전하는 판다월드 바오패밀리의 귀엽고 사랑스러운 일상 포토에세이. 엄마 아이바오의 사랑스러움과 아빠 러바오의 장난꾸러기 같은 성격을 물려받은 푸바오는 국내 최초 자연분만 판다로 태어났을 때부터 주목을 받았으며, 2024년 봄, 소유권을 가진 중국으로 돌아가야 한다는 소식이 알려진 후 더욱 뜨거운 관심과 사랑을 받고 있다. 20년차 사육사이자 푸바오의 영원한 작은할부지 ‘송바오’ 송영관 작가는 푸바오를 향한 애정에 보답하고, 푸바오와 판다월드의 이야기를 전하고자 『전지적 푸바오 시점』을 출간한다.<br><br>
+                    
+                    국내 최초 아기 판다 푸바오의 탄생부터 가장 최근까지 성장한 과정은 물론, 아이바오, 러바오의 매력 넘치는 일상을 글과 사진으로 구성한 이 책은 브런치와 에버랜드 네이버 카페 ‘주토피아’ 등에서 연재한 ‘전지적 뚠뚠이 시점’을 바탕으로 한다. 작가는 판다들의 매력 넘치는 일상을 글로 전하고자 늦은 나이에 문예창작과에 진학해 글쓰기를 공부한 후 보다 강력한 스토리텔링을 살린 글을 선보여왔다. 연재 당시 푸바오의 마음을 들여다보는 듯한 섬세하고 재치 있는 글솜씨와 따뜻한 시선이 담긴 사진으로 브런치에서 화제의 글로 선정되었으며, SNS 채널을 통해서도 알려지면서 팬들의 책 출간 요청이 잇따랐다.<br><br>
+                    
+                    송영관 사육사가 작가로서 대중에게 처음 선보이는 첫 책 『전지적 푸바오 시점』은 260컷이 넘는 사진과 미공개 에피소드, 송바오의 에세이와 미공개 편지 등으로 구성되어 있다. 송바오는 누구보다 가까이 바오패밀리를 지켜본 사람으로서, 애정 어린 시선이 담긴 밀착 사진과 재치 있는 글을 통해 바오패밀리의 성장스토리를 담아냈다. 또한 사육사이자 동물을 사랑하는 한 사람으로서의 책임과 진심을 담은 내밀한 목소리를 에세이로 풀어냈다.<br><br>
+                    </p>
+                <input type="submit" value="쇼핑카트에 추가하기">
+            </div>
+            <div id="MV" class="category-content" style="display:none">
+                <h2>오늘의 추천작 : 하트 오브 스톤 (Heart of Stone, 2023) </h2>
+                <iframe width="1000" height="600" src="https://www.youtube.com/embed/ftmle219naw?si=ccSH0zeecQMwQtP_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <img src="영화.png" width="800">
+            </div>
+            <div id="CAT" class="category-content" style="display:none">
+                <h2>고양이 용품</h2>
+                <img src="살구.jpg"width="100%"><br>
+                <div id="CAT1">
+                <img src="고양이용품1.png" width="30%">
+                <p>쉐드마스터 쉐드킬러 죽은털 제거 브러시(점보) 고양이겸용<br>
+                    ₩9,500​</p>
+                    <input type="submit" value="쇼핑카트에 추가하기">
+                </div>
+                <div id="CAT2">
+                <img src="고양이용품2.png"width="30%">
+                <p>리케이 자루눈썹빗<br>₩2,900 ​</p>
+                <input type="submit" value="쇼핑카트에 추가하기">
+                </div>
+                <div id="CAT3">
+                <img src="고양이용품3.png"width="30%">
+                <p>에티펫 손발엉덩이깨끗 도톰한티슈 40매<br>₩2,000​</p>            
+                <input type="submit" value="쇼핑카트에 추가하기">
+                </div>     
+            </div>
+            <div id="Keybord" class="category-content" style="display:none">
+                <h2>Skyloong gk87 pro</h2>
+                <div style="text-align : center;">
+
+                    <img src="키보드1.png" width="700">
+               
+               </div>
+                
+                <p>【얕은 개스킷 구조 및 바닥 폼】<br>
+
+                    GK87 키보드는 특허받은 Shallow Gasket 디자인으로 적용되었으며, 각 스위치에 맞게 고정밀 경량 액체 실리콘으로 꼼꼼하게 만들어진 올인원 실리콘 패드가 함께 제공됩니다. PCB 보드와 플레이트 사이에 삽입 된 얕은 가스켓 실리콘 패드는 메인 타이핑 영역에서지지력이 부족하다는 전통적인 디자인의 단점을 제거 할뿐만 아니라, 또한 모든 키 입력 하에서 충격을 완화합니다. 키보드에는 빈 사운드를 줄이고 스트로크를 입력하는 느낌을 향상시키기 위해 하단 레이어에 폼이 포함되어 있습니다.<br>
+                    
+                    
+                    <br>【노브 및 스위치용 핫 스왑 모듈】<br>
+                    
+                    Skyloong GK87 키보드에는 핫 스왑 가능한 단자가 장착되어있어 납땜없이 3/5 핀 스위치를 직접 설치할 수 있습니다. 이 버전에서 GK87 은 노브와 스위치 모두를 위해 특별히 설계된 핫스왑 가능한 모듈을 사용합니다. 간단히 잡아 당기면 노브를 일반 기계식 스위치와 키 캡으로 쉽게 교체 할 수 있습니다. 강력한 독점 소프트웨어 덕분에 노브의 기능을 마음대로 사용자 정의 할 수도 있습니다.<br>
+                    
+                    
+                    <br>【유선 및 무선: Type-C, 2.4G 및 Bluetooth 5.1 연결】<br>
+                    
+                    다용도로 설계된 GK980 은 Bluetooth 5.1, 2.4G USB 무선 및 Type C 유선 연결의 세 가지 방식으로 사용할 수 있습니다. 2.4G 무선 동글을 사용하거나 최신 Bluetooth 5.1 연결을 사용하여 포함된 Type-C 케이블을 사용하여 키보드를 기기에 연결할 수 있습니다. 블루투스 및 무선 2.4 GHz를 통해 최대 2 개의 장치를 동시에 연결할 수 있습니다. 신호 전송은 다양한 작업, 학습 및 엔터테인먼트의 요구를 충족시키기 위해 안정적입니다.<br>
+                    
+                    
+                    <br>【MDA 프로파일의 스페이스바 모듈 및 PBT 키캡 분할】<br>
+                    
+                    GK Lite 시리즈의 구성원 인 GK980 키보드에는 추가 분할 스페이스 바 모듈 (2.75U/2.25U/1.25U) 이 포함되어있어 자신의 타이핑 습관에 따라 사용자 정의 할 수 있습니다. 키캡 관해서, 우리 궁극의 경험 얻기 위해 프리미엄 PBT 소재 사용합니다. 문질러 닦은 표면 질감과 함께, 그들은 부드러운 느낌 및 오일 방지, 그래서 그것은 오랜 시간 사용 후에도 당신의 지문이 남아 있지 않습니다. MDA 프로파일은 GK980 키보드를 사용하는 동안 클래식 모양을 사용하여 편안한 타이핑 환경을 제공합니다.<br>
+                    
+                    
+                    <br>【16.8 만 RGB 백라이트】<br>
+                    
+                    원하는 방식으로 색상과 리듬을 설정하고 조명 효과를 매일 모드와 일치시킵니다! 선택할 수있는 다양한 백라이트 효과가 있으며 소프트웨어에서 자신의 게임 조명 모드를 사용자 정의 할 수도 있습니다. 방과 색 구성표를 일치시켜 키보드를 독특하게 만드십시오!<br>
+                    
+                    
+                    <br>【GK87 키보드의 주요 기능】<br>
+                    -1800 컴팩트, 핫 스왑 기능을 갖춘 87 키, 체리 MX, Kailh Box, Gateron 및 TTC와 호환 가능<br>
+                    
+                    -블루투스 5.1, 3600mAh 또는 7200mAh 배터리<br>
+                    
+                    -다른 케이스와 플레이트, 분할 스페이스바 사용 가능<br>
+                    
+                    -혁신적인 얕은 개스킷 장착 및 바닥 폼<br>
+                    
+                    -16.8 만 RGB 백라이트<br>
+                    
+                    
+                    <br>【스펙】<br>
+                    모델: 스카이롱 GK87 PRO 키보드<br>
+                    
+                    키 캡: MDA 프로필의 PBT<br>
+                    
+                    핫스왑: 예, 3 핀 및 5 핀 핫스왑 및 노브 모듈 핫스왑을 지원합니다.<br>
+                    
+                    스페이스바 분할: 예, 2.75U/2.25U/1.25U 크기<br>
+                    케이스 재질 옵션: 선택을위한 ABSplastic 또는 알루미늄<br>
+                    
+                    플레이트 옵션: Alu 케이스 버전의 FR4 또는 PC;<br>
+                    
+                    스틸 플라스틱 케이스 버전<br>
+                    
+                    연결: 블루투스 5.1 및 2.4G 무선, Type-C 유선<br>
+                    
+                    배터리 용량 (블루투스 버전): 3600mAh 또는 7200mAh<br>
+                    안티 고스트 키: NKRO<br>
+                    백라이트: SMD RGB<br>
+                    
+                    구조: 얕은 개스킷<br>
+                    ₩142,447</p>
+                <input type="submit" value="쇼핑카트에 추가하기">
+            </div>
+        </section>
+
+        <aside id="login-aside">
+            <h3>Shopping Cart</h3>
+            <b>현재 쇼핑카트에 물품이 없습니다.</b><br><br>
+            <a href="categories.html">쇼핑카트 보기</a>
+            <br>
+            <br>
+            <br>
+            <h3>로그인</h3>
+            <form>
+                <label for="username">아이디:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">비밀번호:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <input type="submit" value="로그인">
+                <input type="reset" value="초기화">
+                <br>
+                <a href="회원가입.html" target="_blank">회원가입</a> | <a href="회원가입.html">비밀번호 분실</a>
+            </form>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2023 Sebastian</p>
+    </footer>
+</body>
+</html>
